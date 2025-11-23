@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Photos</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 20px;
+}
+h1 {
+text-align: center;
+}
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+margin-top: 30px;
+}
+.gallery img {
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.back {
+margin-top: 20px;
+display: inline-block;
+background-color: #333;
+color: white;
+padding: 10px 15px;
+border-radius: 5px;
+text-decoration: none;
+}
+.back:hover {
+background-color: #555;
+}
+</style>
+</head>
+<body>
+<h1>Photo Gallery</h1>
+
+
+<div class="gallery">
+<img src="img/luke1.jpeg" alt="Luke Photo 1" />
+<img src="img/luke2.jpeg" alt="Luke Photo 2" />
+<img src="img/luke3.jpeg" alt="Luke Photo 3" />
+</div>
+
+
+<a href="index.html" class="back">Back</a>
+</body>
+</html>
